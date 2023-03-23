@@ -1,37 +1,60 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <title>First Web Page</title>
-       <body style="background-color: #f3f2ef;">
-        <section style="background-color: white; border: 1px solid #ccc; border-radius:5px; padding: 15px;">
-            <img style="border-radius:50%;"src="https://media.licdn.com/dms/image/C4D03AQFB9tye_kEyKQ/profile-displayphoto-shrink_200_200/0/1653487995349?e=1684972800&v=beta&t=AsC3b6xumu_58jgR-m_JYoqXHWsC_nQGfg8xFcWXzto"/>
-            <h1>Pratiksha Dalvi</h1>
-            <h3>Sap ABAP Consultant At Wipro|| Learning FrontEnd WebDevelopment</h3>
-            <h4>Mumbai, Maharashtra, India <a target="_blank" href="https://www.linkedin.com/in/pratiksha-dalvi-0b28831a7/overlay/contact-info/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B%2FKbDJe%2BvTeW%2FrqlhZ46qzg%3D%3D">Contact info</a></h4>
-            <a target="_blank" href="https://www.linkedin.com/search/results/people/?network=%5B%22F%22%5D&origin=MEMBER_PROFILE_CANNED_SEARCH&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B%2FKbDJe%2BvTeW%2FrqlhZ46qzg%3D%3D">26 connections</a>
-            <p>Talks About #frontend,#interview,#javascript,#systemdesign,and #webdevelopment</p>
-            <div>
-            <button style="background-color: blue; color:white; border-radius: 10px;">Open To</button>
-            <button style="background-color: white; border: 1px solid blue; color: blue; border-radius: 10px;">Add Profile Section</button>
-            </div>
-        </section>
-        <section style="background-color: white; border: 1px solid #ccc; border-radius:5px; padding: 15px; margin-top: 10px;">
-        <h1>Analytics</h1>  
-        <h5>Private to you</h5>
-        <ul>
-            <li style="margin-top: 10px;"><div style="font-size: 18px;"><b>14 profile views</b></div>
-            <div>Discover who's viewed your profile</div>
-            </li>
-            <li style="margin-top: 10px;"><div style="font-size: 18px;"><b>59 post impressions</b>
-            </div>
-        <div>Check out who's engaging with your posts</div>
-        </li>
-            <li style="margin-top: 10px;"><div style="font-size: 18px;"><b>11 search appearances</b></div>
-            <div>See how often you appear in search results</div>
-            </li>
-        </ul>
-        </section>
-   
-    </body>
-      
+        <title>
+        Table
+        </title>
+        <style>
+            th{
+                border: 1px solid red;  
+            }
+            td{
+                border: 1px solid red;     
+            }
+            .head-th{ 
+                font-size: 20px;
+            }
+            #body-td{
+                color: green;
+            }
+
+        </style>
     </head>
+    <body>
+        <section style="padding: 10px;">
+            <a href="../class6/index.html">Home</a>
+            <a href="./index.html">Curriculum</a>
+            <a href="./registration.html">Registration</a>
+        </section>
+        <section>
+            <blockquote> Some Random Quote</blockquote>
+        </section>
+        <section style="padding: 30px;">
+        <table style="border-collapse: collapse;">
+            <thead>
+                <tr style="border-collapse: collapse;" >
+                    <th class="head-th">Student Name</th>
+                    <th class="head-th">Student Roll No</th>
+                    <th class="head-th">Student Class</th>
+                    <th class="head-th">Student DOB</th>
+                </tr>
+            </thead>
+          <tbody>
+            <tr style="border-collapse: collapse;">
+                <td class="body-td"><b>Abc</b></td>
+                <td class="body-td"><strong>1</strong></td>
+                <td class="body-td"><i>Web Development</i></td>
+                <td class="body-td"><del>15.04.1994</del></td>
+            </tr>
+            <tr style="border-collapse: collapse;">
+                <td class="body-td" id="body-td"><mark>Pratiksha</mark></td>
+                <td class="body-td">2<sub>2</sub><sup>3</sup></td>
+                <td class="body-td"><ins>Web Development</ins></td>
+                <td class="body-td"><small>05.12.1996</small></td>
+            </tr>
+        </tbody>
+       </table>
+      </section>
+    <iframe src="../class6/index.html" height="300px" width="100%"></iframe>
+    </body>
 </html>
